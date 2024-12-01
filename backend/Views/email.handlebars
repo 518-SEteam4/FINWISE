@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .text {
+        margin-left: 30px;
+
+    }
+
+    .divider {
+        background-color: #edeff4;
+        height: 3px;
+    }
+
+    /* .body{
+        background-color: white;
+    } */
+    .verifyotp {
+        padding: 15px;
+        background-color: white;
+        border-bottom: 5px solid #66BC46;
+    }
+
+    .code {
+        letter-spacing: 3px;
+        font-size: 50px;
+    }
+
+    .services {
+        background-color: white;
+    }
+</style>
+
+<body>
+    <div style="background-color: #edeff4;
+        padding: 15px;
+        font-family: sans-serif;">
+        <div class="body">
+            
+            <div style="padding: 15px;
+       background-color: white;
+       border-bottom: 5px solid #66BC46;">
+                <h3>OTP Verification Code</h3>
+                <p>Hello </p>
+
+                <p>Enter the below code to complete verification</p>
+                <h1 style=" letter-spacing: 3px;
+        font-size: 50px;">{{code}}</h1>
+                <p style="color: #727682;">valid for next 15 min</p>
+                <h5>If you did not raise this request . Don't worry about mail</h5>
+
+            </div>
+            <div style="  background-color: #edeff4;
+        height: 3px;"></div>
+            <div class="note">
+                <p style="color: #727682;font-size: 11px;"> Note: This is an auto-generated email. Please do not
+                    reply. You are receiving this message because your mail <a href="mailto:{{mail}}">{{mail}}</a> is
+                    requested to login or register to careeersstudio</p>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
