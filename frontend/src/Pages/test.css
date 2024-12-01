@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 25px;
-  background: linear-gradient(90deg, #3e1dff 0%, #00e0d2 100%);
+  background: linear-gradient(90deg, #3E1DFF 0%, #00E0D2 100%);
   color: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
@@ -30,11 +30,13 @@
 /* Full Width Sections */
 .full-width-sections {
   background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+  
 }
 
 .full-width-row {
   display: flex;
   justify-content: space-around;
+  
 }
 
 .full-width-tab {
@@ -60,7 +62,7 @@
 
 .progress-bar {
   height: 10px;
-  background: linear-gradient(to right, #ff6f61, #ff6347);
+  background: linear-gradient(to right, #FF6F61, #FF6347);
   border-radius: 5px;
 }
 
@@ -81,7 +83,7 @@
 }
 
 .question-text {
-  font-weight: bold;
+  font-weight: bold;  
   margin-bottom: 25px;
   font-size: 1.3rem;
 }
@@ -98,7 +100,7 @@
 
 /* Next Button */
 .next-button {
-  background-color: #ff6f61;
+  background-color: #FF6F61;
   color: white;
   font-size: 1.2rem;
   padding: 12px 25px;
@@ -107,7 +109,7 @@
 }
 
 .next-button:hover {
-  background-color: #ff5a45;
+  background-color: #FF5A45;
 }
 
 /* Modal Styles */
