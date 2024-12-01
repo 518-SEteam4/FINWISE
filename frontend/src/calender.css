@@ -1,0 +1,78 @@
+.calendar-container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    
+    
+}
+
+.calendar-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: '#ee7724';
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.calendar-cell:hover {
+    background: '#ee7724';
+    /* background-color: #f1f1f1; */
+}
+
+.calendar-cell.day {
+
+    position: relative;
+
+}
+
+.calendar-cell.disabled {
+    pointer-events: none;
+    background-color: #f0f0f0;
+    color: #aaa;
+}
+
+.day-number {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.expense-amount {
+    color: #172D13;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* Icon Button styling */
+.calendar-icon-button {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.calendar-icon-button:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.1);
+}
+
+.calendar-icon-button:disabled {
+    background-color: #f0f0f0;
+    color: #ccc;
+}
