@@ -1,0 +1,143 @@
+/* modernQuiz.css */
+
+/* Header Styles */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: linear-gradient(90deg, #3e1dff 0%, #00e0d2 100%);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.header-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.header-button {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.header-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Full Width Sections */
+.full-width-sections {
+  background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+}
+
+.full-width-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.full-width-tab {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 15px 0;
+  text-align: center;
+  flex: 1;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.active-section {
+  background-color: #5146d6;
+  border-radius: 5px;
+}
+
+/* Full Width Progress Bar */
+.full-width-progress {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 10px;
+  background: linear-gradient(to right, #ff6f61, #ff6347);
+  border-radius: 5px;
+}
+
+/* Card Styles */
+.quiz-card {
+  background-color: #fdfdfd;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+}
+
+.question-number {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #5146d6;
+  margin-bottom: 15px;
+}
+
+.question-text {
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 1.3rem;
+}
+
+.option-label {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Radio Button */
+.custom-radio .MuiRadio-root {
+  color: #5146d6;
+}
+
+/* Next Button */
+.next-button {
+  background-color: #ff6f61;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 25px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #ff5a45;
+}
+
+/* Modal Styles */
+.result-modal {
+  width: 450px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  margin: 120px auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+}
+
+.result-text {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.result-score {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  margin-top: 20px;
+  background-color: #5146d6;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+
+.close-button:hover {
+  background-color: #3d34b2;
+}
