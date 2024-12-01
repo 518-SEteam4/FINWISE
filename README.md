@@ -36,6 +36,14 @@ Open new terminal
 -- cd start
 
 And Now you can able to access the application on [http://localhost:3000](http://localhost:3000)
+For User to link bank accounts in profile page
+Click on link accounts and search for Dag site multilevel.
+Login with 
+Userid: YodTest.site16442.1
+Password: site16442.1
+Select any one of the option in next prompt and enter 123456 as OTP.
+Select the accounts and click on save.
+
 ## Devployment links
 Webaddress: [ec2-54-221-20-212.compute-1.amazonaws.com](http://ec2-54-221-20-212.compute-1.amazonaws.com)
 Github Repo link: https://github.com/518-SEteam4/FINWISE
